@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LDK Game Developer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#aaa;
+}
+
+.gallery{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:20px;
+}
+
+.video-card{
+    background:#1a1a1a;
+    border-radius:12px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.video-card:hover{
+    transform:translateY(-5px);
+}
+
+video{
+    width:100%;
+    display:block;
+}
+
+.video-info{
+    padding:15px;
+}
+
+.video-info h3{
+    margin-bottom:8px;
+}
+
+.video-info p{
+    color:#aaa;
+    font-size:14px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#666;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>LDK Game Developer</h1>
+    <p>Gameplay Showcase & Projects</p>
+</header>
+
+<section class="gallery">
+
+    <div class="video-card">
+        <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/CW8dKNZRWx4"
+        title="Zombie Survival"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+        <div class="video-info">
+            <h3>Zombie Survival</h3>
+            <p>Wave-based survival game built in Roblox.</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/GNq1VfasYcM"
+        title="Zombie Survival"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+        <div class="video-info">
+            <h3>Final Planet</h3>
+            <p>Co-op defense against alien invasions.</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/bMtSqKdDW_I"
+        title="Zombie Survival"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+        <div class="video-info">
+            <h3>Class System Demo</h3>
+            <p>Showcasing unique player classes and abilities.</p>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 LDK Game Developer
+</footer>
+
+</body>
+</html>
